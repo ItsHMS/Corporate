@@ -1,0 +1,42 @@
+/* header{
+    color: #fff;
+}
+header a.logo{
+    float: left;
+}
+header nav{
+    float: right;
+} */
+/*styling other then that of video*/
+/* ctrl+k+c: shortcut for comment */
+header{
+    color: #fff;
+    height: 112px;
+    line-height: 112px;
+    font-weight: bold;
+
+}
+
+.links li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+}
+.logo{
+    float: left;
+}
+.links li{
+    padding-left: 30px;
+    float: right;
+}
+.links a:hover{
+    color: #e74c3c;
+    
+}
+.links a:focus{
+    color: #e74c3c;
+}
