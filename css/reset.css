@@ -7,6 +7,7 @@ body{
     font-size: 14px;
     font-weight: normal;
     color: #777;
+    height: 2000px;
 }
 h1{
     font-size: 36px;
@@ -43,12 +44,15 @@ h{
 .secondary-sky-blue{
     color: #2d82d8;
 }
-.secondary-dark-blue-bg{
-    border-color: #2d82d8;
+.secondary-sky-blue-bg{
+    background-color: #2d82d8;
 }
 ul{
     list-style-type: none;
 }
 ul li{
     display: inline;
+}
+.section-padding{
+    padding:56px 0;
 }

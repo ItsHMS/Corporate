@@ -14,6 +14,9 @@ header{
     height: 112px;
     line-height: 112px;
     font-weight: bold;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
 
 }
 
@@ -39,4 +42,80 @@ header{
 }
 .links a:focus{
     color: #e74c3c;
+}
+
+/* #owl-demo .item img{
+    display: block;
+    width: 100%;
+     height: auto;  
+} */
+#owl-demo , .item{
+    text-align: center;
+    height: 600px;
+}
+#owl-demo .item a{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 30px;
+    margin-right: 10px;
+    transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+}
+#owl-demo .item a:last-child{
+    margin-right: 0px;
+}
+#owl-demo .item  h1{
+    margin-bottom: 30px;
+    color: #fff;
+}
+#owl-demo .item  p{
+    margin-bottom: 50px;
+    color: #fff;
+}
+ 
+.img1{
+    background-image: url("img/corporatebg.png");
+    background-size: 100% 100%;
+    padding-top: 150px;
+}
+
+.img2{
+    background-image: url("img/corporatebg.png");
+    background-size: 100% 100%;
+    padding-top: 150px;
+}
+
+.img3{
+    background-image: url("img/corporatebg.png");
+    background-size: 100% 100%;
+    padding-top: 150px;
+}
+
+
+.item .btn1:hover{
+    background-color: #e95c4c;
+    border-radius: 5px;
+}
+.item .btn2:hover{
+    background-color: #4494e4;
+    border-radius: 5px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #e74c3c;
+}
+
+
+.services{
+    text-align: center;
+}
+.services .services-content i{
+    font-size: 32px;
+    color: #555;
+}
+.services-header{
+    margin-bottom: 42px;
 }
