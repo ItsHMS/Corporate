@@ -56,3 +56,12 @@ ul li{
 .section-padding{
     padding:56px 0;
 }
+.white{
+    color: #fff;
+}
+.bold{
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+}

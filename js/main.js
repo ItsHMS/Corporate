@@ -22,6 +22,7 @@ $(document).ready(function() {
    
     });
 
+    
    
   });
 
@@ -52,4 +53,123 @@ owl.owlCarousel({
 });
   
   */
+//============================================================================
+// portfolio section
+$("#portfolio-carousal").owlCarousel({
+   
+  nav : true, // Show next and prev buttons
+  dots:false,
+  slideSpeed : 300,
+  loop:true,
+  items : 4, 
+  
+  autoplay:true,
+  autoplayTimeout:3000,
+  autoplay:250,
+  autoplayHoverPause:true,
+  itemsDesktop : false,
+ 
+  responsive:{
+      0:{
+          items:1,
+          nav:true,
+          center:true,
+      },
+      450:{
+          items:2,
+          nav:true
+      },
+      880:{
+          items:3,
+          nav:true,
+          
+      },
+      1000:{
+        items:4,
+        nav:true,
+        
+    }
+  }
+
+
+});
+
+//============================================================================
+// team section
+$("#team-carousal").owlCarousel({
+   
+  nav : true, // Show next and prev buttons
+  dots:false,
+  slideSpeed : 300,
+  loop:true,
+  items : 4, 
+  autoplay:false,
+  autoplayTimeout:3000,
+  autoplay:250,
+  autoplayHoverPause:true,
+  // itemsDesktop : false,
+  // itemsDesktopSmall : false,
+  // itemsTablet: false,
+  // itemsMobile : false
+  responsive:{
+    0:{
+        items:1,
+        nav:true
+    },
+    500:{
+        items:2,
+        nav:true
+    },
+    880:{
+        items:3,
+        nav:true,
+        
+    },
+    1000:{
+      items:4,
+      nav:true,
+      
+  }
+}
+});
+
+
+// ====================================================================================
+
+
+
+/***********Testimonial Section Start*******/
+
+$(".testimonial-carousel").owlCarousel({
+   
+  navigation : true, // Show next and prev buttons
+
+  slideSpeed : 300,
+  paginationSpeed : 500,
+  loop:true,
+  items : 1, 
+  autoplay:true,
+  autoplayTimeout:3500,
+  autoplay:250,
+  autoplayHoverPause:true,
+  itemsDesktop : false,
+  itemsDesktopSmall : false,
+  itemsTablet: false,
+  itemsMobile : false
+
+});
+
+
+/***********Testimonial Slider Section End*******/
+
+// =======================Slick Nav====================
+
+  // $("#demo").slicknav({
+  //   label:'',
+  // });
+  $('#menu').slicknav({
+    label: '',
+  });
+
+
 
