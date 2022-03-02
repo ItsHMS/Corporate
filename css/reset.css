@@ -65,3 +65,6 @@ ul li{
 .center{
     text-align: center;
 }
+.animation{
+    opacity: 0;
+}
