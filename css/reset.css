@@ -2,12 +2,21 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: normal;
     color: #777;
     height: 2000px;
+}
+.pace-done .entire-content{
+    opacity: 1;
+}
+.pace-running .entire-content{
+    opacity: 0;
 }
 h1{
     font-size: 36px;

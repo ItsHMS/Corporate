@@ -32,9 +32,12 @@ header{
 .logo{
     float: left;
 }
+.menu{
+    float: right;
+}
 .links li{
     padding-left: 30px;
-    float: right;
+    float: left;
 }
 .links a:hover{
     color: #e74c3c;
