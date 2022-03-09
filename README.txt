@@ -1,0 +1,1 @@
+nothing to be displayed for its details
